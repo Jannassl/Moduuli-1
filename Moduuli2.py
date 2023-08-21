@@ -1,5 +1,11 @@
-sade = float(input("Anna ympyrän säde:"))
+# 1. tehtävä
+nimi = input("Anna nimesi")
+print(nimi)
 
-vastaus = 3.14* (sade**2)
 
-print(vastaus)
+
+#Ympyrän pinta-ala
+#sade = float(input("Anna ympyrän säde:"))
+
+#vastaus = 3.14* (sade**2)
+#print(vastaus)
