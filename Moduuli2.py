@@ -1,5 +1,5 @@
 # 1. tehtävä
-nimi = input("Anna nimesi")
+nimi = input("Mikä on nimesi")
 print(nimi)
 
 
