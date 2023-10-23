@@ -3,8 +3,8 @@ class Auto:
     def __init__(self,rekisteritunnus, huippunopeus,):
         self.rekisteritunnus = rekisteritunnus
         self.huippunopeus = huippunopeus
-        self.nykyinen_nopeus = 60
-        self.nykyinen_matka = 2000
+        self.nykyinen_nopeus = 0
+        self.nykyinen_matka = 0
     def kiihdyta(self, nopeuden_muutos):
         uusi_nopeus = self.nykyinen_nopeus + nopeuden_muutos
         if uusi_nopeus <0:
