@@ -36,6 +36,8 @@ while auto.nykyinen_matka <= 10000:
         auto.kulje(1)
         if auto.nykyinen_matka > 10000:
             print(f"VOITTAJA: {auto.rekisteritunnus},Huippunopeus: {auto.huippunopeus}, Nopeus: {auto.nykyinen_nopeus}. Kuljettu matka: {auto.nykyinen_matka}")
-            break
-        print(f"{auto.rekisteritunnus},Huippunopeus: {auto.huippunopeus}, Nopeus: {auto.nykyinen_nopeus}. Kuljettu matka: {auto.nykyinen_matka}")
 
+            break
+        #print(f"{auto.rekisteritunnus},Huippunopeus: {auto.huippunopeus}, Nopeus: {auto.nykyinen_nopeus}. Kuljettu matka: {auto.nykyinen_matka}")
+for auto in autot:
+    print(f"{auto.rekisteritunnus},Huippunopeus: {auto.huippunopeus}, Nopeus: {auto.nykyinen_nopeus}. Kuljettu matka: {auto.nykyinen_matka}")
