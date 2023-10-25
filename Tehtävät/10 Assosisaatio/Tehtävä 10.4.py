@@ -27,8 +27,20 @@ class Kilpailu:
 
     def tunti_kuluu(self):
         for auto in self.autot:
-            auto.kiihdyta()
-            auto.kulje()
+            auto.kiihdyta(random.randint(-10,15))
+            auto.kulje(1)
+
+    def tulosta_tilanne(self):
+        for auto in self.autot:
+            print(f"Rekisteritunnus: {auto.rekisteritunnus}, Nopeus: {auto.nykyinen_nopeus}, Kilometrit: {auto.nykyinen_matka}")
+
+    def kilpailu_ohi(self):
+        if auto.nykyinen_matka >= self.pituus_km:
+            return True
+        else:
+            return False
+
+
 
 
 autot = []
@@ -42,4 +54,6 @@ for i in range(10):
     autot.append(auto)
 
 kilpailu = Kilpailu("Suuri romuralli",8000,autot)
+
+kilpailu.tunti_kuluu()
 kilpailu.tulosta_tilanne()
