@@ -13,6 +13,8 @@ class Auto:
             self.nykyinen_nopeus = self.huippunopeus
         else:
             self.nykyinen_nopeus = uusi_nopeus
+            print(uusi_nopeus)
+        return
 
 uusi_auto = Auto("ABC-123", 142)
 

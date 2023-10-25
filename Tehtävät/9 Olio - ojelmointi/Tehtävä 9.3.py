@@ -22,6 +22,7 @@ class Auto:
 
 
 uusi_auto = Auto("ABC-123", 142)
+uusi_auto.kiihdyta(40)
 uusi_auto.kulje(1.5)
 print("Rekisteritunnus:",uusi_auto.rekisteritunnus)
 print("Huippunopeus:", uusi_auto.huippunopeus,"Km/h")

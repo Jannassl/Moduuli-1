@@ -46,13 +46,10 @@ class Talo:
         self.hissi_numero = int(hissi_numero)
         self.kohde_kerros = int(kohde_kerros)
         print(f"Hissin numero {self.hissi_numero} ja kerros {self.kohde_kerros}")
-    def palohälytys(self):
-        for hissi in self.hissit:
-             hissi.siirry_kerrokseen(self.hissit[0].alin_kerros)
+
 
 hissi = Hissi
 talo = Talo(1,7,3)
 talo.hissien_luonti()
 
 talo.aja_hissia(1,5)
-talo.palohälytys()

@@ -27,6 +27,6 @@ class Hissi:
 
 
 
-hissi = Hissi(alin_kerros=1, ylimm_kerros=10)
+hissi = Hissi(1, 10)
 hissi.siirry_kerrokseen(5)
 hissi.siirry_kerrokseen(1)
