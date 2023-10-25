@@ -19,4 +19,16 @@ class Hissi:
         self.kerros -= 1
         print(f"Hissin kerroksessa: {self.kerros}")
 
+
+class Talo:
+    def __init__(self,alin_kerros,ylin_kerros, hissien_lkm):
+        self.alin_kerros = alin_kerros
+        self.ylin_kerros = ylin_kerros
+        self.hissien_lkm = hissien_lkm
+        self.hissit = []
+
+        for i in range(self.hissien_lkm):
+
+
+
 hissi = Hissi(1,10)

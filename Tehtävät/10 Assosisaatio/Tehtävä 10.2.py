@@ -1,8 +1,9 @@
 class Hissi:
-    def __init__(self,numeor, alin_kerros, ylimm_kerros):
+    def __init__(self,numero, alin_kerros, ylimm_kerros):
         self.kerros = alin_kerros
         self.alin_kerros = alin_kerros
         self.ylin_kerros = ylimm_kerros
+
 
 
     def siirry_kerrokseen(self, kohde_kerros):
