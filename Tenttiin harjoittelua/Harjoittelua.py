@@ -27,7 +27,7 @@ class Talo:
         self.hissien_lkm = hissien_lkm
         self.hissit = []
 
-        for i in range(self.hissien_lkm):
+        #for i in range(self.hissien_lkm):
 
 
 
