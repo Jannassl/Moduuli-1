@@ -18,3 +18,5 @@ class Hissi:
     def kerros_alas(self):
         self.kerros -= 1
         print(f"Hissin kerroksessa: {self.kerros}")
+
+hissi = Hissi(1,10)
